@@ -8,4 +8,8 @@ describe('simple test', () => {
         requestListener(null, { end, writeHead });
         expect(writeHead.mock.calls.length).toBe(1);
     });
+
+    test("i'm always failing", () => {
+        expect(1).toBe(2);
+    });
 });
