@@ -1,5 +1,6 @@
 {
     "name": "node-boilerplate",
+    "type": "module",
     "version": "1.0.0",
     "description": "Start your ready environment without pain ## Installation TODO ## LICENSE TODO",
     "main": "index.js",

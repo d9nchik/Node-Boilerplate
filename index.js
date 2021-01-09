@@ -1,4 +1,5 @@
-const http = require('http');
+'use strict';
+import http from 'http';
 const PORT = /*process.env.PORT*/ 3000;
 
 const requestListener = function (req, res) {
