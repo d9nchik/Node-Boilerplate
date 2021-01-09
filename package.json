@@ -4,7 +4,8 @@
   "description": "Start your ready environment without pain ## Installation TODO ## LICENSE TODO",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/d9nchik/node-boilerplate/issues"
   },
-  "homepage": "https://github.com/d9nchik/node-boilerplate#readme"
+  "homepage": "https://github.com/d9nchik/node-boilerplate#readme",
+  "devDependencies": {
+    "prettier": "2.2.1"
+  }
 }
