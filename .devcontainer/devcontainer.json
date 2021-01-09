@@ -30,7 +30,11 @@
 		"github.vscode-pull-request-github",
 		"eamodio.gitlens",
 		"dbaeumer.vscode-eslint",
-		"esbenp.prettier-vscode"
+		"esbenp.prettier-vscode",
+		"streetsidesoftware.code-spell-checker",
+		"pflannery.vscode-versionlens",
+		"visualstudioexptteam.vscodeintellicode",
+		"ms-azuretools.vscode-docker"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
