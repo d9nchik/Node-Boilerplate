@@ -5,10 +5,20 @@
     "description": "Start your ready environment without pain ## Installation TODO ## LICENSE TODO",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
+        "test": "jest",
         "start": "nodemon index.js",
         "format": "prettier \"src/**.js\" index.js",
         "lint": "eslint \"**/*.js\""
+    },
+    "jest": {
+        "collectCoverage": true,
+        "modulePathIgnorePatterns": [
+            "src/bootstrap/*.*"
+        ],
+        "coveragePathIgnorePatterns": [
+            "src/bootstrap/*.*",
+            "<rootDir>/src/bootstrap/*.*"
+        ]
     },
     "repository": {
         "type": "git",
@@ -22,8 +32,11 @@
     },
     "homepage": "https://github.com/d9nchik/node-boilerplate#readme",
     "devDependencies": {
+        "@babel/core": "^7.12.10",
+        "@babel/preset-env": "^7.12.11",
         "eslint": "^7.17.0",
         "eslint-config-prettier": "^7.1.0",
+        "jest": "^26.6.3",
         "prettier": "2.2.1"
     }
 }
