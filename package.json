@@ -1,0 +1,20 @@
+{
+  "name": "node-boilerplate",
+  "version": "1.0.0",
+  "description": "Start your ready environment without pain ## Installation TODO ## LICENSE TODO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d9nchik/node-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/d9nchik/node-boilerplate/issues"
+  },
+  "homepage": "https://github.com/d9nchik/node-boilerplate#readme"
+}
