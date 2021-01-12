@@ -8,5 +8,3 @@ const PORT = process.env.PORT || 3000;
 export const server = http.createServer(requestListener);
 
 server.listen(PORT);
-
-// TODO: rewrite README.md
