@@ -1,7 +1,7 @@
-import { requestListener } from './src/main';
+import { requestListener } from '../main';
 
 describe('simple test', () => {
-    test('is otput of index.html correct', () => {
+    test('is output of index.html correct', () => {
         const writeHead = jest.fn();
         const end = jest.fn();
 
